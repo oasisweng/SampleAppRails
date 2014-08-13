@@ -45,7 +45,7 @@ Spork.prefork do
     #     --seed 1234
     config.order = "random"
     config.include Capybara::DSL
-        config.expect_with :rspec do |c|
+    config.expect_with :rspec do |c|
       c.syntax = :expect
     end
   end
