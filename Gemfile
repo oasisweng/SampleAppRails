@@ -8,6 +8,7 @@ gem 'sprockets', '>=2.11.0'
 group :development, :test do
   gem 'rspec-rails', '2.13.1'
   gem 'guard-rspec', '2.5.0'
+  gem 'minitest'
 end
 
 group :test do
